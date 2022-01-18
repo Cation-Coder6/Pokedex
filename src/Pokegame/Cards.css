@@ -1,0 +1,27 @@
+.Cards #h1{
+    font-size: 15px;
+    color: blue;
+    margin: 7px;
+}
+
+.Cards #img{
+    height: 50px;
+    transform:scale(2);
+    transition:ease-in 500ms;
+}
+
+.Cards{
+    display: inline-block;
+    height:200px;
+    width:150px;
+    background-color: #CCCCCC;
+    margin: 20px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 2px 2px grey;
+    
+}
+
+.Cards #img:hover{
+    transition:ease-in 500ms;
+    transform: scale(3);
+}

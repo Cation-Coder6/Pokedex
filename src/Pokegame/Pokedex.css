@@ -1,0 +1,12 @@
+.Pokedex #declare{
+    font-size: 1.5em;
+}
+.Pokedex #Winner{
+    color:green;
+}
+.Pokedex #Loser{
+    color:red;
+}
+.Pokedex{
+    background-color:#E0E0E0;
+}
